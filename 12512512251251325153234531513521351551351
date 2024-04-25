@@ -165,7 +165,7 @@ local AutoAngleToggle = QBAimbot:NewToggle("Auto Angle", false, function(Callbac
     end
 end)
 
-local CustomLeadDistance = QBAimbot:NewSlider("Custom Lead Distance", "", true,  "/", {min = 0, max = 10, default = 0}, function(Callback)
+local CustomLeadDistance = QBAimbot:NewSlider("Custom Lead Distance", "", true,  "/", {min = 0, max = 20, default = 0}, function(Callback)
     if getgenv().qbaimbotenabled then
         getgenv().customLead = Callback
     end
