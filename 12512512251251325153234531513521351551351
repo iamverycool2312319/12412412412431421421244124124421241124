@@ -226,7 +226,7 @@ Beam.Segments = 3000
 Beam.Attachment1 = Attachment1
 
 local data = {
-    Angle = 40,
+    Angle = 35,
     Power = 0,
     Direction = Vector3.new(0, 0, 0)
 }
