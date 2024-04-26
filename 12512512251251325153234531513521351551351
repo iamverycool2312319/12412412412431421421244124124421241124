@@ -234,7 +234,7 @@ local data = {
 local passTypeLeads = {
     ["Dime"] = 9,
     ["Jump"] = 6,
-    ["Mag"] = 51,
+    ["Mag"] = 49,
 }
 
 local passTypeSwitch = {
